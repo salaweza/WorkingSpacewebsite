@@ -1,0 +1,253 @@
+html , body , header 
+{
+    border:  0 ;
+    margin: 0;
+    padding: 0; 
+    font-size: 100%; 
+} 
+.FirstSection
+{
+    height: 700px;
+    background-image: url("banner.jpg");
+    opacity: 0.96;
+
+}
+
+.ul
+{
+    list-style-type: none;
+    overflow: hidden;
+    color: aliceblue;
+}  
+.nav li
+{
+    float: right; 
+    /*------------------------------------------------ */
+    margin-right: 20px;
+    /*------------------------------------------------ */
+  
+}
+.nav li a 
+{
+    display: block;
+    padding: 20px;
+    color: white;
+    list-style: none;
+}
+a:link{
+    text-decoration: none;
+}
+ .nav li a:hover
+{
+    color: rgb(139, 226, 142);
+}
+.nav .Logo
+{
+    float: left;
+    /*------------------------------------------------ */
+    margin-left: 100px;
+    font-style: oblique;
+    /*------------------------------------------------ */
+}
+.hr
+{
+    width: 80%; 
+    text-align: center;
+    margin-top: 10px;
+} 
+.h1W
+{
+    text-align: center;
+    color:#ffffff;
+    padding: 80px;
+    font-size: 60;
+}
+/*------------------------------------------------ */
+.Icons{
+    text-align: center;
+    list-style-type: none;
+}
+.fa-car,.fa-camera,.fa-bug{
+    color: #4CAF50;
+    font-size: 70px;
+}
+/*------------------------------------------------ */
+.carIcon
+{
+    
+   position: absolute;
+   top: auto;
+   left: 30; 
+    color: #ffffff;
+    font-size: 30px;
+
+}
+.cameraIcon
+{
+   
+    position: absolute;
+    top: auto;
+    left: 560;
+    color: #fdfdfd;
+    font-size: 30px;
+}
+.bugIcon
+{
+  
+    font-size: 30px;
+    color: #ffffff;
+    position: absolute;
+    top: auto;
+    right: 20;
+}
+
+.getStartedButton
+{
+    color: white;
+    position: relative;
+    top: 230;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 230px;
+    height: 40;
+    background-color: #4CAF50;
+    border-radius: 30px;
+    border: 2px solid #4CAF50; /* Green */
+}
+.getStartedButton:hover
+{
+	transform: scale(1.1,1.2);
+	transition: all ease-in-out 0.5s;
+    color: #4CAF50 ;
+    background-color: white;
+}
+.paragraph
+{
+    font-size: 20px;
+}
+.secImages
+{
+    margin-top: 50px;
+    height: 450px;
+    text-align: center;
+}
+.image1
+{
+    padding-top: 20px;
+    padding-right: 100px;
+    border-right: 1px solid #4CAF50; /*line between 2 images*/
+    position: absolute;
+    left:200;
+}
+.pic01
+{
+	border: 2px solid grey;
+	box-shadow: 5px 5px 5px 5px rgba(10,25,20,0.2);
+    border-radius: 100%;
+}
+.LearnMoreButton
+{
+    border-radius: 30px;
+    background-color:#4CAF50;
+    border: 2px solid #4CAF50; /* Green */
+    color: white;
+    width: 110px;
+    height: 30px;
+    
+}
+.LearnMoreButton:hover
+{
+	transform: scale(1.1,1.2);
+	transition: all ease-in-out 0.5s;
+    color: #4CAF50 ;
+    background-color: white;
+}
+
+.image2
+{
+    padding-top: 20px;
+    position: absolute;
+    right:200;
+    
+}
+.pic02
+{
+	border: 2px solid grey;
+    box-shadow: 5px 5px 5px 5px rgba(10,25,20,0.2);
+    border-radius: 100%;
+}
+.lastSec
+{
+    height: 450px;
+    background-color: #6CC091;
+}
+.h3Last
+{
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+    padding-top: 30px;
+}
+.namesec{
+    position: absolute;
+    left: 175px;
+}
+.name
+{
+    border-radius: 10px;
+    width: 500px; 
+    background: white;
+    height: 40px;
+    border-color: rgb(238, 236, 236); 
+    border: 0;
+    border-bottom: 1px solid white;
+    margin-top: 20px;
+}
+.email
+{
+    width: 500px;
+    border-radius: 10px;
+    position: absolute;
+    right: 100px;
+    background: white;
+    height: 40px;
+    border-color: rgb(238, 236, 236); 
+    border: 0;
+    border-bottom: 1px solid white;
+    margin-top: 20px;
+    color: rgb(238, 236, 236);
+}
+
+.message
+{
+    position: relative;
+    top: 70px;
+    left: 175px;
+    width: 80%;
+    border-radius: 10px;
+    border-color: rgb(238, 236, 236);
+    background: white;
+    border: 0;
+    border-bottom: 1px solid white;
+    margin-top: 20px;
+}
+.sendBtn
+{
+    width: 100px; 
+    height: 30px;
+    border-radius: 30px; 
+    border:1px solid white;
+    background-color: #6CC091;
+    color: white;
+    position: relative;
+    left: 47%;
+    top: 85px;
+
+} 
+.sendBtn:hover
+{
+	transform: scale(1.1,1.2);
+	transition: all ease-in-out 0.5s;
+    color: gray;
+}
